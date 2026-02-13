@@ -58,6 +58,7 @@ tomato curry,flour,3
 tomato curry,tomato,3
 tomato puree,tomato,3
 whole-wheat flour,wheat,5
+
 apple jelly,apple,2
 apple pie,flour,3
 apple pie,sugar,2
@@ -108,6 +109,7 @@ pound cake,sugar,1
 roost sable cookie,flour,1
 roost sable cookie,sugar,2
 tomato juice,tomato,2
+
 sell:pear,pear,1
 sell:peach,peach,1
 sell:orange,orange,1
