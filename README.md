@@ -8,3 +8,7 @@ Feel free to open a pull request to add more recipes.
 1. Install requirements
 2. Update storage.csv with your own items
 3. Run acnh.py
+
+## Native fruit
+This script assumes your native fruit is peaches (mine are). 
+If you have a different one, make sure to update the prices of the fruits in recipes.csv
