@@ -62,6 +62,7 @@ for name, val in zip(recipe_names, res.x):
     if val > 0.5:
         print(name, int(round(val)))
 
+print()
 
 solution = {
     name: int(round(val))
