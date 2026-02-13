@@ -1,0 +1,203 @@
+{
+  "prices": {
+    "aji fry": 100,
+    "flour": 100
+  },
+  "storage": {
+    "wheat": 50,
+    "sugarcane": 50
+  },
+  "recipes": {
+    "aji fry": {
+      "ingredients": {
+        "horse mackerel": 1,
+        "flour": 1
+      }
+    },
+    "anchoas al ajillo": {
+      "ingredients": {
+        "anchovy": 2
+      }
+    },
+    "brown sugar": {
+      "ingredients": {
+        "sugarcane": 5
+      },
+      "quantity": 5
+    },
+    "carpaccio di marlin blu": {
+      "ingredients": {
+        "blue marlin": 1
+      }
+    },
+    "carrot bagel sandwich": {
+      "ingredients": {
+        "whole-wheat flour": 2,
+        "carrot": 3
+      }
+    },
+    "carrot potage": {
+      "ingredients": {
+        "flour": 1,
+        "carrot": 2
+      }
+    },
+    "fish-and-chips": {
+      "ingredients": {
+        "potato": 2,
+        "dab": 1
+      }
+    },
+    "flour": {
+      "ingredients": {
+        "wheat": 5
+      },
+      "quantity": 10
+    },
+    "fruit salad": {
+      "ingredients": {
+        "apple": 1,
+        "orange": 1,
+        "pear": 1,
+        "peach": 1,
+        "cherry": 1
+      }
+    },
+    "gnocchi di patate": {
+      "ingredients": {
+        "flour": 2,
+        "potato": 3
+      }
+    },
+    "gnocchi di zucca": {
+      "ingredients": {
+        "flour": 2,
+        "orange pumpkin": 3
+      }
+    },
+    "grilled sea bass with herbs": {
+      "ingredients": {
+        "sea bass": 2,
+        "clump of weeds": 3
+      }
+    },
+    "karei no nitsuke": {
+      "ingredients": {
+        "dab": 1
+      }
+    },
+    "minestrone soup": {
+      "ingredients": {
+        "tomato": 2,
+        "potato": 1,
+        "carrot": 1
+      }
+    },
+    "mixed-fruits bagel sandwich": {
+      "ingredients": {
+        "flour": 2,
+        "apple": 1,
+        "orange": 1,
+        "pear": 1,
+        "peach": 1,
+        "cherry": 1
+      }
+    },
+    "organic bread": {
+      "ingredients": {
+        "whole-wheat flour": 3
+      }
+    },
+    "pear jam": {
+      "ingredients": {
+        "pear": 3
+      }
+    },
+    "pesce all'acqua pazza": {
+      "ingredients": {
+        "red snapper": 1,
+        "tomato": 1,
+        "manilla clam": 1
+      }
+    },
+    "pumpkin bagel sandwich": {
+      "ingredients": {
+        "whole-wheat flour": 2,
+        "orange pumpkin": 3
+      }
+    },
+    "sardines in oil": {
+      "ingredients": {
+        "anchovy": 1
+      }
+    },
+    "sea-bass pie": {
+      "ingredients": {
+        "flour": 3,
+        "sea bass": 1
+      }
+    },
+    "seafood ajillo": {
+      "ingredients": {
+        "tiger prawn": 1,
+        "squid": 1,
+        "scallop": 1
+      }
+    },
+    "seaweed soup": {
+      "ingredients": {
+        "seaweed": 2
+      }
+    },
+    "spaghetti napolitan": {
+      "ingredients": {
+        "flour": 3,
+        "tomato puree": 1
+      }
+    },
+    "squid-ink curry": {
+      "ingredients": {
+        "flour": 3,
+        "squid": 1
+      }
+    },
+    "squid-ink spaghetti": {
+      "ingredients": {
+        "flour": 3,
+        "squid": 1
+      }
+    },
+    "sugar": {
+      "ingredients": {
+        "sugarcane": 5
+      },
+      "quantity": 10
+    },
+    "tomato curry": {
+      "ingredients": {
+        "flour": 3,
+        "tomato": 3
+      }
+    },
+    "tomato puree": {
+      "ingredients": {
+        "tomato": 3
+      }
+    },
+    "whole-wheat flour": {
+      "ingredients": {
+        "wheat": 5
+      },
+      "quantity": 10
+    },
+
+    "apple jelly": {
+      "ingredients": {
+        "apple": 2
+      }
+    },
+    "apple pie": {
+      "ingredients":
+    }
+  }
+}
