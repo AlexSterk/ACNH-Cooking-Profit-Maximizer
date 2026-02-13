@@ -12,3 +12,7 @@ Feel free to open a pull request to add more recipes.
 ## Native fruit
 This script assumes your native fruit is peaches (mine are). 
 If you have a different one, make sure to update the prices of the fruits in recipes.csv
+
+## Intermediate products
+If you want to keep (not sell) intermediate products (sugar, flour, etc) after cooking, and still want the nice profit overview,
+set the prices for these items to 0 in recipes.csv
