@@ -38,6 +38,8 @@ pear jam,pear,3
 pesce all'acqua pazza,red snapper,1
 pesce all'acqua pazza,tomato,1
 pesce all'acqua pazza,manila clam,1
+potato curry,flour,3
+potato curry,potato,3
 pumpkin bagel sandwich,flour,2
 pumpkin bagel sandwich,orange pumpkin,3
 sardines in oil,anchovy,1
@@ -115,6 +117,7 @@ sell:peach,peach,1
 sell:orange,orange,1
 sell:cherry,cherry,1
 sell:apple,apple,1
+sell:coconut,coconut,1
 sell:flour,flour,1
 sell:whole-wheat flour,whole-wheat flour,1
 sell:sugar,sugar,1

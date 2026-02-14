@@ -25,6 +25,7 @@ mixed-fruits bagel sandwich,1,2180
 organic bread,1,950
 pear jam,1,450
 pesce all'acqua pazza,1,4140
+potato curry,1,2520
 pumpkin bagel sandwich,1,2210
 sardines in oil,1,300
 sea-bass pie,1,1240
@@ -35,6 +36,7 @@ squid-ink curry,1,1360
 squid-ink spaghetti,1,1360
 tomato curry,1,2520
 tomato puree,1,1260
+
 apple jelly,1,300
 apple pie,1,1880
 apple smoothie,1,300
@@ -56,8 +58,10 @@ pear tart,1,780
 pound cake,1,950
 roost sable cookie,1,950
 tomato juice,1,840
+
 sell:pear,1,500
 sell:cherry,1,500
 sell:peach,1,100
 sell:orange,1,500
 sell:apple,1,500
+sell:coconut,1,250
