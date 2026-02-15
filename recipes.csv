@@ -27,6 +27,7 @@ pear jam,1,450
 pesce all'acqua pazza,1,4140
 potato curry,1,2520
 pumpkin bagel sandwich,1,2210
+salad,1,2100
 sardines in oil,1,300
 sea-bass pie,1,1240
 seafood ajillo,1,5640
@@ -65,4 +66,4 @@ sell:cherry,1,500
 sell:peach,1,100
 sell:orange,1,500
 sell:apple,1,500
-sell:coconut,1,250
+sell:coconut,1,0

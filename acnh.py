@@ -1,6 +1,7 @@
 import pandas as pd
 import numpy as np
 from scipy.optimize import milp, LinearConstraint, Bounds
+from collections import defaultdict
 
 products = pd.read_csv("recipes.csv")
 storage = pd.read_csv("storage.csv")
@@ -62,14 +63,10 @@ for name, val in zip(recipe_names, res.x):
     if val > 0.5:
         print(name, int(round(val)))
 
-print()
-
 solution = {
     name: int(round(val))
     for name, val in zip(recipe_names, res.x)
 }
-
-from collections import defaultdict
 
 consumed = defaultdict(int)
 produced = defaultdict(int)
@@ -89,11 +86,11 @@ for recipe, times in solution.items():
         qty = row["quantity"]
         consumed[item] += times * qty
 
-for item in ["flour", "sugar", "whole-wheat flour", "brown sugar", "tomato puree"]:
-    print(item)
-    print("  produced:", produced[item])
-    print("  consumed:", consumed[item])
-    print("  net:", produced[item] - consumed[item])
+# for item in ["flour", "sugar", "whole-wheat flour", "brown sugar", "tomato puree"]:
+#     print(item)
+#     print("  produced:", produced[item])
+#     print("  consumed:", consumed[item])
+#     print("  net:", produced[item] - consumed[item])
 
 print("\n=== Item Flow Summary ===")
 
