@@ -16,46 +16,48 @@ n = len(recipe_names)
 
 c = np.array([-price[r] for r in recipe_names])
 
-all_items = set()
+def run_milp():
+    all_items = set()
 
-all_items.update(inventory.keys())
-all_items.update(recipe_names)
-all_items.update(ingredients["ingredient"].unique())
+    all_items.update(inventory.keys())
+    all_items.update(recipe_names)
+    all_items.update(ingredients["ingredient"].unique())
 
-A = []
-b = []
+    A = []
+    b = []
+    for item in all_items:
+        row = np.zeros(n)
 
-for item in all_items:
-    row = np.zeros(n)
+        for i, recipe in enumerate(recipe_names):
 
-    for i, recipe in enumerate(recipe_names):
+            # consumption
+            used = ingredients[
+                (ingredients["recipe"] == recipe) &
+                (ingredients["ingredient"] == item)
+                ]
 
-        # consumption
-        used = ingredients[
-            (ingredients["recipe"] == recipe) &
-            (ingredients["ingredient"] == item)
-            ]
+            if not used.empty:
+                row[i] += used["quantity"].values[0]
 
-        if not used.empty:
-            row[i] += used["quantity"].values[0]
+            # production
+            if recipe == item:
+                row[i] -= output_qty.get(recipe, 1)
 
-        # production
-        if recipe == item:
-            row[i] -= output_qty.get(recipe, 1)
+        A.append(row)
+        b.append(inventory.get(item, 0))
+    bounds = Bounds(lb=np.zeros(n), ub=np.full(n, np.inf))
+    integrality = np.ones(n)
+    constraints = LinearConstraint(A, -np.inf, b)
+    res = milp(
+        c=c,
+        constraints=constraints,
+        integrality=integrality,
+        bounds=bounds
+    )
+    return res
 
-    A.append(row)
-    b.append(inventory.get(item, 0))
 
-bounds = Bounds(lb=np.zeros(n), ub=np.full(n, np.inf))
-integrality = np.ones(n)
-constraints = LinearConstraint(A, -np.inf, b)
-
-res = milp(
-    c=c,
-    constraints=constraints,
-    integrality=integrality,
-    bounds=bounds
-)
+res = run_milp()
 
 print("Max profit:", -res.fun)
 
@@ -103,3 +105,10 @@ for item in sorted(all_items):
 
     if prod > 0 or cons > 0:
         print(f"{item:25} produced={prod:4} consumed={cons:4} net={net:4}")
+
+
+# inventory["sugar"] += 1
+# original_profit = -res.fun
+# res_new = run_milp()
+# marginal_value = -res_new.fun - original_profit
+# print("Marginal value:", marginal_value)
