@@ -12,6 +12,12 @@ fish-and-chips,potato,2
 fish-and-chips,dab,1
 flour,wheat,5
 french fries,potato,3
+fruit pizza,flour,3
+fruit pizza,apple,1
+fruit pizza,orange,1
+fruit pizza,peach,1
+fruit pizza,pear,1
+fruit pizza,cherry,1
 fruit salad,apple,1
 fruit salad,orange,1
 fruit salad,pear,1
@@ -83,6 +89,9 @@ cake sale,potato,1
 carrot cake,flour,1
 carrot cake,sugar,1
 carrot cake,carrot,1
+carrot scones,whole-wheat flour,2
+carrot scones,sugar,1
+carrot scones,carrot,2
 cherry tart,flour,1
 cherry tart,sugar,1
 cherry tart,cherry,1

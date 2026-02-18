@@ -1,8 +1,8 @@
 item,quantity crafted,price per item
-brown sugar,10,210
-sugar,10,210
-whole-wheat flour,10,210
-flour,10,210
+brown sugar,10,0
+sugar,10,0
+whole-wheat flour,10,0
+flour,10,0
 sell:flour,1,210
 sell:whole-wheat flour,1,210
 sell:sugar,1,210
@@ -15,6 +15,7 @@ carrot bagel sandwich,1,2210
 carrot potage,1,1370
 fish-and-chips,1,1200
 french fries,1,1260
+fruit pizza,1,2500
 fruit salad,1,1550
 gnocchi di patate,1,2210
 gnocchi di zucca,1,2210
@@ -46,6 +47,7 @@ apple tart,1,780
 brown-sugar cupcakes,1,630
 cake sale,1,680
 carrot cake,1,630
+carrot scones,1,2000
 cherry tart,1,780
 coconut cookies,1,1010
 coconut pancakes,1,2010
@@ -67,4 +69,4 @@ sell:cherry,1,500
 sell:peach,1,100
 sell:orange,1,500
 sell:apple,1,500
-sell:coconut,1,0
+sell:coconut,1,250
