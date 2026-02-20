@@ -29,6 +29,7 @@ pesce all'acqua pazza,1,4140
 potato curry,1,2520
 potato potage,1,1370
 pumpkin bagel sandwich,1,2210
+pumpkin soup,1,1260
 salad,1,2100
 sardines in oil,1,300
 sea-bass pie,1,1240
@@ -66,7 +67,7 @@ tomato juice,1,840
 
 sell:pear,1,500
 sell:cherry,1,500
-sell:peach,1,100
+sell:peach,1,0
 sell:orange,1,500
 sell:apple,1,500
 sell:coconut,1,250

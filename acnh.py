@@ -107,7 +107,7 @@ for item in sorted(all_items):
         print(f"{item:25} produced={prod:4} consumed={cons:4} net={net:4}")
 
 
-# inventory["sugar"] += 1
+# inventory["flour"] += 1
 # original_profit = -res.fun
 # res_new = run_milp()
 # marginal_value = -res_new.fun - original_profit
