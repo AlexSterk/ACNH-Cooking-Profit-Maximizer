@@ -6,6 +6,7 @@ from collections import defaultdict
 products = pd.read_csv("recipes.csv")
 storage = pd.read_csv("storage.csv")
 ingredients = pd.read_csv("ingredients.csv")
+# storage["storage"] *= 2
 
 price = dict(zip(products["item"], products["price per item"]))
 output_qty = dict(zip(products["item"], products["quantity crafted"]))
