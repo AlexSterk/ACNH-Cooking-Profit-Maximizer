@@ -30,6 +30,7 @@ gnocchi di zucca,orange pumpkin,3
 grilled sea bass with herbs,sea bass,1
 grilled sea bass with herbs,clump of weeds,5
 karei no nitsuke,dab,1
+kabu ankake,10 turnips,1
 minestrone soup,tomato,2
 minestrone soup,potato,1
 minestrone soup,carrot,1
@@ -122,6 +123,9 @@ mixed-fruits pie,orange,1
 mixed-fruits pie,cherry,1
 mixed-fruits pie,peach,1
 mixed-fruits pie,pear,1
+orange pound cake,flour,2
+orange pound cake,sugar,1
+orange pound cake,orange,2
 pancakes,flour,2
 pancakes,sugar,2
 peach smoothie,peach,2
@@ -134,6 +138,8 @@ pear tart,sugar,1
 pear tart,pear,1
 plain cupcakes,flour,1
 plain cupcakes,sugar,1
+plain scones,flour,2
+plain scones,sugar,1
 pound cake,flour,2
 pound cake,sugar,1
 roost sable cookie,flour,1
