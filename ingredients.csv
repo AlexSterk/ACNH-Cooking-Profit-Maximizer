@@ -2,6 +2,9 @@ recipe,ingredient,quantity
 aji fry,horse mackerel,1
 aji fry,squid,1
 anchoas al ajillo,anchovy,2
+baked potatoes,potato,2
+barred-knifejaw carpaccio,barred knifejaw,1
+bread,flour,3
 brown sugar,sugarcane,5
 carpaccio di marlin blu,blue marlin,1
 carrot bagel sandwich,whole-wheat flour,2
@@ -45,6 +48,8 @@ pear jam,pear,3
 pesce all'acqua pazza,red snapper,1
 pesce all'acqua pazza,tomato,1
 pesce all'acqua pazza,manila clam,1
+pizza margherita,flour,3
+pizza margherita,tomato,2
 potato potage,flour,1
 potato potage,potato,2
 potato curry,flour,3
@@ -80,6 +85,8 @@ sugar,sugarcane,5
 tomato curry,flour,3
 tomato curry,tomato,3
 tomato puree,tomato,3
+turnip salad,10 turnips,1
+turnip salad,tomato,1
 veggie crepe,flour,2
 veggie crepe,tomato,1
 veggie crepe,orange pumpkin,1
@@ -95,6 +102,8 @@ apple tart,sugar,1
 apple tart,apple,1
 brown-sugar cupcakes,whole-wheat flour,1
 brown-sugar cupcakes,brown sugar,1
+brown-sugar pound cake,flour,2
+brown-sugar pound cake,brown sugar,1
 cake sale,flour,2
 cake sale,carrot,1
 cake sale,potato,1
@@ -123,11 +132,13 @@ mixed-fruits pie,orange,1
 mixed-fruits pie,cherry,1
 mixed-fruits pie,peach,1
 mixed-fruits pie,pear,1
+orange jelly,orange,2
 orange pound cake,flour,2
 orange pound cake,sugar,1
 orange pound cake,orange,2
 pancakes,flour,2
 pancakes,sugar,2
+peach jelly,peach,2
 peach smoothie,peach,2
 peach tart,flour,1
 peach tart,sugar,1
@@ -142,6 +153,8 @@ plain scones,flour,2
 plain scones,sugar,1
 pound cake,flour,2
 pound cake,sugar,1
+pretzels,flour,1
+pretzels,sugar,1
 roost sable cookie,flour,1
 roost sable cookie,sugar,2
 tomato juice,tomato,2

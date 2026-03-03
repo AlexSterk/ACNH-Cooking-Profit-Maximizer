@@ -10,6 +10,9 @@ sell:brown sugar,1,210
 
 aji fry,1,540
 anchoas al ajillo,1,600
+baked potatoes,1,840
+barred-knifejaw carpaccio,1,6000
+bread,1,950
 carpaccio di marlin blu,1,12000
 carrot bagel sandwich,1,2210
 carrot potage,1,1370
@@ -27,6 +30,7 @@ mixed-fruits bagel sandwich,1,2180
 organic bread,1,950
 pear jam,1,450
 pesce all'acqua pazza,1,4140
+pizza margherita,1,2000
 potato curry,1,2520
 potato potage,1,1370
 pumpkin bagel sandwich,1,2210
@@ -42,6 +46,7 @@ squid-ink curry,1,1360
 squid-ink spaghetti,1,1360
 tomato curry,1,2520
 tomato puree,1,1260
+turnip salad,1,680
 veggie crepe,1,1680
 
 apple jelly,1,300
@@ -49,6 +54,7 @@ apple pie,1,1880
 apple smoothie,1,300
 apple tart,1,780
 brown-sugar cupcakes,1,630
+brown-sugar pound cake,1,950
 cake sale,1,680
 carrot cake,1,630
 carrot scones,1,2000
@@ -58,8 +64,10 @@ coconut pancakes,1,2010
 frosted cookies,1,950
 frosted pretzels,1,950
 mixed-fruits pie,1,2500
+orange jelly,1,300
 orange pound cake,1,2210
 pancakes,1,1260
+peach jelly,1,300
 peach smoothie,1,300
 peach tart,1,780
 pear jelly,1,300
@@ -67,6 +75,7 @@ pear tart,1,780
 plain cupcakes,1,630
 plain scones,1,950
 pound cake,1,950
+pretzels,1,630
 roost sable cookie,1,950
 tomato juice,1,840
 
