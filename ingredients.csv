@@ -133,6 +133,9 @@ mixed-fruits pie,cherry,1
 mixed-fruits pie,peach,1
 mixed-fruits pie,pear,1
 orange jelly,orange,2
+orange pie,flour,3
+orange pie,sugar,2
+orange pie,orange,2
 orange pound cake,flour,2
 orange pound cake,sugar,1
 orange pound cake,orange,2
@@ -158,6 +161,11 @@ pretzels,sugar,1
 roost sable cookie,flour,1
 roost sable cookie,sugar,2
 tomato juice,tomato,2
+veggie cupcakes,flour,1
+veggie cupcakes,sugar,1
+veggie cupcakes,tomato,1
+veggie cupcakes,carrot,1
+veggie cupcakes,potato,1
 
 sell:pear,pear,1
 sell:peach,peach,1
