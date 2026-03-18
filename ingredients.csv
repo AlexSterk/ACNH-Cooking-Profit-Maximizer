@@ -2,9 +2,12 @@ recipe,ingredient,quantity
 aji fry,horse mackerel,1
 aji fry,squid,1
 anchoas al ajillo,anchovy,2
+bamboo-shoot soup,bamboo shoot,2
 baked potatoes,potato,2
 barred-knifejaw carpaccio,barred knifejaw,1
 bread,flour,3
+bread gratin,flour,2
+bread gratin,whole-wheat flour,2
 brown sugar,sugarcane,5
 carpaccio di marlin blu,blue marlin,1
 carrot bagel sandwich,whole-wheat flour,2
@@ -26,6 +29,8 @@ fruit salad,orange,1
 fruit salad,pear,1
 fruit salad,peach,1
 fruit salad,cherry,1
+gnocchi di carote,flour,2
+gnocchi di carote,carrot,3
 gnocchi di patate,flour,2
 gnocchi di patate,potato,3
 gnocchi di zucca,flour,2
@@ -126,6 +131,12 @@ frosted cookies,flour,1
 frosted cookies,sugar,2
 frosted pretzels,flour,1
 frosted pretzels,sugar,2
+fruit cupcakes,flour,1
+fruit cupcakes,apple,1
+fruit cupcakes,orange,1
+fruit cupcakes,cherry,1
+fruit cupcakes,peach,1
+fruit cupcakes,pear,1
 mixed-fruits pie,flour,3
 mixed-fruits pie,apple,1
 mixed-fruits pie,orange,1
@@ -139,6 +150,9 @@ orange pie,orange,2
 orange pound cake,flour,2
 orange pound cake,sugar,1
 orange pound cake,orange,2
+orange tart,flour,1
+orange tart,sugar,1
+orange tart,orange,1
 pancakes,flour,2
 pancakes,sugar,2
 peach jelly,peach,2
