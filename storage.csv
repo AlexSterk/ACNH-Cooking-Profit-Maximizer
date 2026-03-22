@@ -1,23 +1,26 @@
 item,storage
-tomato,204
-wheat,199
-sugarcane,185
-potato,180
-carrot,180
-orange pumpkin,180
+wheat,277
+sugarcane,260
+
+tomato,288
+potato,252
+carrot,252
+orange pumpkin,252
+coconut,186
+peach,270
+
 cherry,0
-coconut,69
-peach,105
 pear,0
 clump of weeds,790
-squid,4
+squid,0
 scallop,22
 seaweed,0
-red snapper,2
+red snapper,0
 manila clam,3
 dab,0
-sea bass,3
-olive flounder,6
+sea bass,0
+olive flounder,0
 horse mackerel,0
-sugar,0
+
+sugar,4
 flour,0
