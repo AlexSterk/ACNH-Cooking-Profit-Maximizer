@@ -53,6 +53,10 @@ pear jam,pear,3
 pesce all'acqua pazza,red snapper,1
 pesce all'acqua pazza,tomato,1
 pesce all'acqua pazza,manila clam,1
+pickled veggies,carrot,1
+pickled veggies,potato,1
+pickled veggies,tomato,1
+pickled veggies,orange pumpkin,1
 pizza margherita,flour,3
 pizza margherita,tomato,2
 potato potage,flour,1
@@ -87,6 +91,8 @@ squid-ink curry,squid,1
 squid-ink spaghetti,flour,3
 squid-ink spaghetti,squid,1
 sugar,sugarcane,5
+tomato bagel sandwich,flour,2
+tomato bagel sandwich,tomato,3
 tomato curry,flour,3
 tomato curry,tomato,3
 tomato puree,tomato,3

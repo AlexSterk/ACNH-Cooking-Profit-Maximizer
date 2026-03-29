@@ -3,12 +3,19 @@ import numpy as np
 from scipy.optimize import milp, LinearConstraint, Bounds
 from collections import defaultdict
 
+STACKS = False
+
 products = pd.read_csv("recipes.csv")
 storage = pd.read_csv("storage.csv")
 ingredients = pd.read_csv("ingredients.csv")
 # Set HOT Items
 hot_items = []
 products.loc[products["item"].isin(hot_items), "price per item"] *= 2
+
+if STACKS:
+    products["quantity crafted"] *= 10
+    products["price per item"] *= 10
+    ingredients["quantity"] *= 10
 
 price = dict(zip(products["item"], products["price per item"]))
 output_qty = dict(zip(products["item"], products["quantity crafted"]))
@@ -66,7 +73,7 @@ print("Max profit:", -res.fun)
 
 for name, val in zip(recipe_names, res.x):
     if val > 0.5:
-        print(name, int(round(val)))
+        print(name, int(round(val)) * (10 if STACKS else 1))
 
 solution = {
     name: int(round(val))
