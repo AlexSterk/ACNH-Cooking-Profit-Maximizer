@@ -54,6 +54,7 @@ tomato puree,1,1260
 turnip salad,1,680
 veggie crepe,1,1680
 veggie sandwich,1,1680
+veggie quiche,1,1370
 
 apple jelly,1,300
 apple pie,1,1880
@@ -70,6 +71,7 @@ coconut pancakes,1,2010
 frosted cookies,1,950
 frosted pretzels,1,950
 fruit cupcakes,1,1870
+fruit-topped pancakes,1,2180
 mixed-fruits pie,1,2500
 orange jelly,1,300
 orange pie,1,1880
@@ -77,6 +79,7 @@ orange pound cake,1,2210
 orange tart,1,780
 pancakes,1,1260
 peach jelly,1,300
+peach pie,1,1880
 peach smoothie,1,300
 peach tart,1,780
 pear jelly,1,300
@@ -85,6 +88,7 @@ plain cupcakes,1,630
 plain scones,1,950
 pound cake,1,950
 pretzels,1,630
+pumpkin scones,1,2000
 roost sable cookie,1,950
 sugar crepe,1,1260
 tomato juice,1,840

@@ -104,6 +104,9 @@ veggie crepe,orange pumpkin,1
 veggie sandwich,flour,2
 veggie sandwich,tomato,1
 veggie sandwich,carrot,1
+veggie quiche,flour,1
+veggie quiche,potato,1
+veggie quiche,orange pumpkin,1
 whole-wheat flour,wheat,5
 
 apple jelly,apple,2
@@ -146,6 +149,12 @@ fruit cupcakes,orange,1
 fruit cupcakes,cherry,1
 fruit cupcakes,peach,1
 fruit cupcakes,pear,1
+fruit-topped pancakes,flour,2
+fruit-topped pancakes,apple,1
+fruit-topped pancakes,orange,1
+fruit-topped pancakes,pear,1
+fruit-topped pancakes,peach,1
+fruit-topped pancakes,cherry,1
 mixed-fruits pie,flour,3
 mixed-fruits pie,apple,1
 mixed-fruits pie,orange,1
@@ -165,6 +174,9 @@ orange tart,orange,1
 pancakes,flour,2
 pancakes,sugar,2
 peach jelly,peach,2
+peach pie,flour,3
+peach pie,sugar,2
+peach pie,peach,2
 peach smoothie,peach,2
 peach tart,flour,1
 peach tart,sugar,1
@@ -181,6 +193,9 @@ pound cake,flour,2
 pound cake,sugar,1
 pretzels,flour,1
 pretzels,sugar,1
+pumpkin scones,whole-wheat flour,2
+pumpkin scones,sugar,1
+pumpkin scones,orange pumpkin,2
 roost sable cookie,flour,1
 roost sable cookie,sugar,2
 sugar crepe,flour,2
