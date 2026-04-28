@@ -10,10 +10,13 @@ bread gratin,flour,2
 bread gratin,whole-wheat flour,2
 brown sugar,sugarcane,5
 carpaccio di marlin blu,blue marlin,1
+carrot-tops curry,flour,3
+carrot-tops curry,carrot,2
 carrot bagel sandwich,whole-wheat flour,2
 carrot bagel sandwich,carrot,3
 carrot potage,flour,1
 carrot potage,carrot,2
+cherry jam,cherry,3
 fish-and-chips,potato,2
 fish-and-chips,dab,1
 flour,wheat,5
@@ -182,6 +185,9 @@ peach tart,flour,1
 peach tart,sugar,1
 peach tart,peach,1
 pear jelly,pear,2
+pear pie,flour,3
+pear pie,sugar,2
+pear pie,pear,2
 pear tart,flour,1
 pear tart,sugar,1
 pear tart,pear,1

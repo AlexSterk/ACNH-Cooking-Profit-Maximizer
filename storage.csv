@@ -1,13 +1,13 @@
 item,storage
-wheat,379
-sugarcane,384
+wheat,16
+sugarcane,32
 
-tomato,396
-potato,348
-carrot,348
-orange pumpkin,372
-coconut,444
-peach,330
+tomato,164
+potato,166
+carrot,146
+orange pumpkin,160
+coconut,222
+peach,165
 
 cherry,0
 pear,0
@@ -22,5 +22,5 @@ sea bass,0
 olive flounder,0
 horse mackerel,0
 
-sugar,0
-flour,0
+sugar,580
+flour,400

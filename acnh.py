@@ -3,9 +3,9 @@ import numpy as np
 from scipy.optimize import milp, LinearConstraint, Bounds
 from collections import defaultdict
 
-STACKS = False
+STACKS = True
 
-products = pd.read_csv("recipes.csv")
+products = pd.read_csv("recipes.csv", comment="#")
 storage = pd.read_csv("storage.csv")
 ingredients = pd.read_csv("ingredients.csv")
 # Set HOT Items
